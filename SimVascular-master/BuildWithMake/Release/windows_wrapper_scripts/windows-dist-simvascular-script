@@ -1,0 +1,4 @@
+
+# run the executable
+"$SV_HOME/REPLACE_SV_VERSION-bin.exe" $*
+

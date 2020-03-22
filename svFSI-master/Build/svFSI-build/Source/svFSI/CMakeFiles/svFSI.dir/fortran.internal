@@ -1,0 +1,20 @@
+# The fortran modules provided by this target.
+provides
+ allfun.mod
+ apmod.mod
+ bomod.mod
+ cepmod.mod
+ chnlmod.mod
+ cmmod.mod
+ commod.mod
+ datatypeparams.mod
+ fnmod.mod
+ genutils.mod
+ listmod.mod
+ matfun.mod
+ stdparams.mod
+ ttpmod.mod
+ utilmod.mod
+ vtklegacymod.mod
+ vtkxmllib.mod
+ vtkxmlmod.mod

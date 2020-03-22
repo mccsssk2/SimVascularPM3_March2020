@@ -1,0 +1,63 @@
+#!/bin/bash -f
+
+# Copyright (c) Stanford University, The Regents of the University of
+#               California, and others.
+#
+# All Rights Reserved.
+#
+# See Copyright-SimVascular.txt for additional details.
+#
+# Permission is hereby granted, free of charge, to any person obtaining
+# a copy of this software and associated documentation files (the
+# "Software"), to deal in the Software without restriction, including
+# without limitation the rights to use, copy, modify, merge, publish,
+# distribute, sublicense, and/or sell copies of the Software, and to
+# permit persons to whom the Software is furnished to do so, subject
+# to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included
+# in all copies or substantial portions of the Software.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+# IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+# TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+# PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+# OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+# EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+# PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+# PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+# LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+# NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+# SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+export SV_HOME=/usr/local/package/REPLACE_SV_VERSION/REPLACE_TIMESTAMP
+export SV_RELEASE_BUILD=REPLACE_SV_PLATFORM
+export SV_OS=REPLACE_SV_OS
+
+################################################################
+# YOU PROBABLY DON'T NEED TO CHANGE ANYTHING BELOW THIS LINE.  #
+################################################################
+
+export SV_STATIC_BUILD=1
+export SV_RELEASED_MODE=1
+
+# SV additions (tcltk, etc.)
+export LD_LIBRARY_PATH=$SV_HOME:$LD_LIBRARY_PATH
+
+# Tcl/Tk additions
+export TCL_LIBRARY=$SV_HOME/lib/REPLACE_TCL_VERSION_NO
+export TK_LIBRARY=$SV_HOME/lib/REPLACE_TK_VERSION_NO
+export LD_LIBRARY_PATH=$SV_HOME/lib:$LD_LIBRARY_PATH
+
+# GDCM additions
+#export LD_LIBRARY_PATH=$SV_HOME:$LD_LIBRARY_PATH
+
+# need to convert to dos style paths on windows
+case "$SV_OS" in
+ "windows" )
+export SV_HOME=`cygpath --windows -t mixed "$SV_HOME"`
+export TCL_LIBRARY=`cygpath --windows -t mixed "$TCL_LIBRARY"`
+export TK_LIBRARY=`cygpath --windows -t mixed "$TK_LIBRARY"`
+export PATH=$LD_LIBRARY_PATH:$PATH
+;;
+esac

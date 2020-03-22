@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kharches/software/SimVascPM3/svFSI-master/Code/ThirdParty/tetgen/simvascular_tetgen/predicates.cxx
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+float.h
+-
+fpu_control.h
+-
+tetgen.h
+/Users/kharches/software/SimVascPM3/svFSI-master/Code/ThirdParty/tetgen/simvascular_tetgen/tetgen.h
+CGAL/Exact_predicates_inexact_constructions_kernel.h
+-
+
+/Users/kharches/software/SimVascPM3/svFSI-master/Code/ThirdParty/tetgen/simvascular_tetgen/tetgen.cxx
+tetgen.h
+/Users/kharches/software/SimVascPM3/svFSI-master/Code/ThirdParty/tetgen/simvascular_tetgen/tetgen.h
+
+/Users/kharches/software/SimVascPM3/svFSI-master/Code/ThirdParty/tetgen/simvascular_tetgen/tetgen.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+time.h
+-
+stdint.h
+-
+

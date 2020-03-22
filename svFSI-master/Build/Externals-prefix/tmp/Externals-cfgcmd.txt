@@ -1,0 +1,1 @@
+cmd='/Applications/CMake.app/Contents/bin/cmake;-GUnix Makefiles;-C<TMP_DIR>/Externals-cache-$<CONFIG>.cmake;<SOURCE_DIR><SOURCE_SUBDIR>'

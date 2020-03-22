@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kharches/software/SimVascPM3/svFSI-master/Code/Source/svFSILS/HRCPUT.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+mach/clock.h
+-
+mach/mach.h
+-
+

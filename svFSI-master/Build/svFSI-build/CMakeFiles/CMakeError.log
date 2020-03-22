@@ -1,0 +1,53 @@
+The MPI test test_mpi for Fortran in mode F90_MODULE failed to compile with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c15b1/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c15b1.dir/build.make CMakeFiles/cmTC_c15b1.dir/build
+Building Fortran object CMakeFiles/cmTC_c15b1.dir/test_mpi.f90.o
+/usr/local/bin/gfortran  -I/usr/local/Cellar/mpich/3.3.2/include  -ffixed-line-length-132 -cpp -pthread    -c /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/FindMPI/test_mpi.f90 -o CMakeFiles/cmTC_c15b1.dir/test_mpi.f90.o
+/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/FindMPI/test_mpi.f90:2:10:
+
+       use mpi
+          1
+Fatal Error: Cannot read module file ‘mpi.mod’ opened at (1), because it was created by a different version of GNU Fortran
+compilation terminated.
+make[4]: *** [CMakeFiles/cmTC_c15b1.dir/test_mpi.f90.o] Error 1
+make[3]: *** [cmTC_c15b1/fast] Error 2
+
+
+
+The MPI test test_mpi for Fortran in mode F08_MODULE failed to compile with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_92894/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_92894.dir/build.make CMakeFiles/cmTC_92894.dir/build
+Building Fortran object CMakeFiles/cmTC_92894.dir/test_mpi.f90.o
+/usr/local/bin/gfortran  -I/usr/local/Cellar/mpich/3.3.2/include  -ffixed-line-length-132 -cpp -pthread    -c /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/FindMPI/test_mpi.f90 -o CMakeFiles/cmTC_92894.dir/test_mpi.f90.o
+/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/FindMPI/test_mpi.f90:2:10:
+
+       use mpi_f08
+          1
+Fatal Error: Can't open module file ‘mpi_f08.mod’ for reading at (1): No such file or directory
+compilation terminated.
+make[4]: *** [CMakeFiles/cmTC_92894.dir/test_mpi.f90.o] Error 1
+make[3]: *** [cmTC_92894/fast] Error 2
+
+
+
+Determining if the Fortran sgemm exists failed with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a1373/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a1373.dir/build.make CMakeFiles/cmTC_a1373.dir/build
+Building Fortran object CMakeFiles/cmTC_a1373.dir/testFortranCompiler.f.o
+/usr/local/bin/gfortran   -cpp -pthread    -c /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_a1373.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_a1373
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1373.dir/link.txt --verbose=1
+/usr/local/bin/gfortran  -L/usr/local/opt/openssl/lib  -cpp -pthread  CMakeFiles/cmTC_a1373.dir/testFortranCompiler.f.o  -o cmTC_a1373 
+Undefined symbols for architecture x86_64:
+  "_sgemm_", referenced from:
+      _MAIN__ in testFortranCompiler.f.o
+ld: symbol(s) not found for architecture x86_64
+collect2: error: ld returned 1 exit status
+make[4]: *** [cmTC_a1373] Error 1
+make[3]: *** [cmTC_a1373/fast] Error 2
+
+
+

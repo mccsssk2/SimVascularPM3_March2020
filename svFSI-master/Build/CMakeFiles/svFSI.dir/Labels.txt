@@ -1,0 +1,13 @@
+# Target labels
+ svFSI
+# Source files and their labels
+/Users/kharches/software/SimVascPM3/svFSI-master/Build/CMakeFiles/svFSI
+/Users/kharches/software/SimVascPM3/svFSI-master/Build/CMakeFiles/svFSI.rule
+/Users/kharches/software/SimVascPM3/svFSI-master/Build/CMakeFiles/svFSI-complete.rule
+/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-install.rule
+/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-mkdir.rule
+/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-download.rule
+/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-update.rule
+/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-patch.rule
+/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-configure.rule
+/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-build.rule

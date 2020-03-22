@@ -1,0 +1,8 @@
+21 March 2020.
+
+This is the 3D FSI solver. The script is called:
+
+mysvfsi
+
+in svFSI-master/Build which runs the actual binary. On Mojave it appears to be working.
+

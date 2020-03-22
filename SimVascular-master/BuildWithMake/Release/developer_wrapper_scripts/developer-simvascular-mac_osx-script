@@ -1,0 +1,3 @@
+
+# run the executable
+$SV_HOME/BuildWithMake/Bin/sv.app/Contents/MacOS/sv $*

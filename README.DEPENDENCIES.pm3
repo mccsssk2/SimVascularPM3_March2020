@@ -1,0 +1,36 @@
+21 March 2020.
+
+All these dependencies should be installed into the system (not as user) to let
+the install/compile work seamlessless. Some of this is now integrated into 
+combined libraries. You do not HAVE to get all these dependencies, the cmake/Makefiles
+are configured to get what the system does not have.
+
+(2019.06)
+
+freetype.2.6.3
+gdcm.2.6.3
+hdf5.1.10.1
+itk.4.13.2
+mitk.2018.04.2
+mmg.5.3.9
+opencascade.7.3.0
+python.3.5.5
+qt.5.11.3
+tcltk.8.6.4
+tinyxml2.6.2.0
+vtk.8.1.1
+
+Before you get above, the following should be installed (Mac: Mojave; Linux: Fedora, Red Hat).
+
+1. GCC
+2. gfortran (must have f90 or above)
+3. mpich2
+4. openmpi (it clashes with mpich2, preference is mpich2 but I want openmpi to work).
+5. parMETIS (svFSI will download if not).
+3. brew (Mac)
+4. yum (Fedora)
+5. cmake, cmake-gui
+6. doxygen (optional if only user)
+7. tracs (optional if only user)
+7. wgets, svn, git.
+

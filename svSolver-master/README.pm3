@@ -1,0 +1,11 @@
+21 March 2020.
+
+This is the 1D solver. Use cmake-gui and compile.
+This is much simpler than SimVascular-master, and is an independent
+binary. Actually, its a collection of binaries.
+After build, the svSolver-build directory has scripts:
+
+mypost		mypre		mysolver	mysolver-nompi
+
+which appear to run the actual binaries with all paths set up.
+

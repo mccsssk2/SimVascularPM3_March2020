@@ -1,0 +1,661 @@
+The system is: Darwin - 18.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/3.17.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/3.17.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c91c7/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c91c7.dir/build.make CMakeFiles/cmTC_c91c7.dir/build
+Building C object CMakeFiles/cmTC_c91c7.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_c91c7.dir/testCCompiler.c.o   -c /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c91c7
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c91c7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl/lib  CMakeFiles/cmTC_c91c7.dir/testCCompiler.c.o  -o cmTC_c91c7 
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1a188/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1a188.dir/build.make CMakeFiles/cmTC_1a188.dir/build
+Building C object CMakeFiles/cmTC_1a188.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -v -Wl,-v -o CMakeFiles/cmTC_1a188.dir/CMakeCCompilerABI.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_1a188.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_1a188.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include
+ /Library/Developer/CommandLineTools/usr/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_1a188
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a188.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl/lib -v -Wl,-v CMakeFiles/cmTC_1a188.dir/CMakeCCompilerABI.c.o  -o cmTC_1a188 
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -o cmTC_1a188 -L/usr/local/opt/openssl/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1a188.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:16:53 Apr  5 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/opt/openssl/lib
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/include]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/include;/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include;/Library/Developer/CommandLineTools/usr/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_1a188/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1a188.dir/build.make CMakeFiles/cmTC_1a188.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_1a188.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -v -Wl -v -o CMakeFiles/cmTC_1a188.dir/CMakeCCompilerABI.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_1a188.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_1a188.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /usr/include]
+  ignore line: [ /System/Library/Frameworks (framework directory)]
+  ignore line: [ /Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_1a188]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a188.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -Wl -search_paths_first -Wl -headerpad_max_install_names -L/usr/local/opt/openssl/lib -v -Wl -v CMakeFiles/cmTC_1a188.dir/CMakeCCompilerABI.c.o  -o cmTC_1a188 ]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -o cmTC_1a188 -L/usr/local/opt/openssl/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1a188.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1a188] ==> ignore
+    arg [-L/usr/local/opt/openssl/lib] ==> dir [/usr/local/opt/openssl/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_1a188.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/local/opt/openssl/lib;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/local/opt/openssl/lib] ==> [/usr/local/opt/openssl/lib]
+  collapse library dir [/usr/local/opt/openssl/lib] ==> [/usr/local/opt/openssl/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/usr/local/opt/openssl/lib;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_573db/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_573db.dir/build.make CMakeFiles/cmTC_573db.dir/build
+Building CXX object CMakeFiles/cmTC_573db.dir/testCXXCompiler.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_573db.dir/testCXXCompiler.cxx.o -c /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_573db
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_573db.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl/lib  CMakeFiles/cmTC_573db.dir/testCXXCompiler.cxx.o  -o cmTC_573db 
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e975d/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e975d.dir/build.make CMakeFiles/cmTC_e975d.dir/build
+Building CXX object CMakeFiles/cmTC_e975d.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -v -Wl,-v -o CMakeFiles/cmTC_e975d.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e975d.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -stdlib=libc++ -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_e975d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0
+ignoring nonexistent directory "/usr/include/c++/v1"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/include/c++/v1
+ /usr/local/include
+ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include
+ /Library/Developer/CommandLineTools/usr/include
+ /usr/include
+ /System/Library/Frameworks (framework directory)
+ /Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_e975d
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e975d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl/lib -v -Wl,-v CMakeFiles/cmTC_e975d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e975d 
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -o cmTC_e975d -L/usr/local/opt/openssl/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e975d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:16:53 Apr  5 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/opt/openssl/lib
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/include/c++/v1]
+    add: [/usr/local/include]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/usr/include/c++/v1]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/include/c++/v1;/usr/local/include;/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include;/Library/Developer/CommandLineTools/usr/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_e975d/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e975d.dir/build.make CMakeFiles/cmTC_e975d.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_e975d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -v -Wl -v -o CMakeFiles/cmTC_e975d.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e975d.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1 -stdlib=libc++ -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_e975d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.7.0]
+  ignore line: [ignoring nonexistent directory "/usr/include/c++/v1"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include/c++/v1]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /usr/include]
+  ignore line: [ /System/Library/Frameworks (framework directory)]
+  ignore line: [ /Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_e975d]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e975d.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -Wl -search_paths_first -Wl -headerpad_max_install_names -L/usr/local/opt/openssl/lib -v -Wl -v CMakeFiles/cmTC_e975d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e975d ]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -o cmTC_e975d -L/usr/local/opt/openssl/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e975d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e975d] ==> ignore
+    arg [-L/usr/local/opt/openssl/lib] ==> dir [/usr/local/opt/openssl/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_e975d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/local/opt/openssl/lib;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/local/opt/openssl/lib] ==> [/usr/local/opt/openssl/lib]
+  collapse library dir [/usr/local/opt/openssl/lib] ==> [/usr/local/opt/openssl/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/usr/local/opt/openssl/lib;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/local/bin/gfortran 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /usr/local/bin/gfortran -v CMakeFortranCompilerId.F -mmacosx-version-min=10.14.7 -asm_macosx_version_min=10.14 -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/lto-wrapper
+Target: x86_64-apple-darwin16
+Configured with: ../gcc-6.3.0/configure --prefix=/usr/local/gfortran --enable-languages=c,c++,fortran,objc,obj-c++ --build=x86_64-apple-darwin16 --with-gmp=/Users/fx/devel/gcc/deps-static/x86_64 --with-mpfr=/Users/fx/devel/gcc/deps-static/x86_64 --with-mpc=/Users/fx/devel/gcc/deps-static/x86_64 --with-isl=/Users/fx/devel/gcc/deps-static/x86_64
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.14.7' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2'
+ /usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//ccsTgp4m.f90 -quiet -v -D__DYNAMIC__ CMakeFortranCompilerId.F -fPIC -quiet -dumpbase CMakeFortranCompilerId.F -mmacosx-version-min=10.14.7 -mtune=core2 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/finclude -o /var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//ccEa68kg.s
+GNU Fortran (GCC) version 6.3.0 (x86_64-apple-darwin16)
+	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5-p2, MPC version 1.0.3, isl version 0.15
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../../../x86_64-apple-darwin16/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/finclude
+ /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include
+ /usr/local/include
+ /usr/local/gfortran/include
+ /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU Fortran2008 (GCC) version 6.3.0 (x86_64-apple-darwin16)
+	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5-p2, MPC version 1.0.3, isl version 0.15
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.14.7'  '-shared-libgcc' '-mtune=core2'
+ as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.14 -o /var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//ccRCbA1u.o /var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//ccEa68kg.s
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx10.14.0 -filetype obj -main-file-name ccEa68kg.s -target-cpu penryn -fdebug-compilation-dir /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/3.17.0/CompilerIdFortran -dwarf-debug-producer Apple LLVM version 10.0.1 (clang-1001.0.46.4) -dwarf-version=4 -mrelocation-model pic -o /var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//ccRCbA1u.o /var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//ccEa68kg.s
+Reading specs from /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../../libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.14.7'  '-shared-libgcc' '-mtune=core2'
+COMPILER_PATH=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/
+LIBRARY_PATH=/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.14.7'  '-shared-libgcc' '-mtune=core2'
+ /usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.14.7 -weak_reference_mismatches non-weak -o a.out -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0 -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../.. /var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//ccRCbA1u.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 6.3.0
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.14.7 -weak_reference_mismatches non-weak -o a.out -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0 -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../.. /var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//ccRCbA1u.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:16:53 Apr  5 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0
+	/usr/local/gfortran/lib
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/3.17.0/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a93db/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a93db.dir/build.make CMakeFiles/cmTC_a93db.dir/build
+Building Fortran object CMakeFiles/cmTC_a93db.dir/testFortranCompiler.f.o
+/usr/local/bin/gfortran    -c /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_a93db.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_a93db
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a93db.dir/link.txt --verbose=1
+/usr/local/bin/gfortran  -L/usr/local/opt/openssl/lib    CMakeFiles/cmTC_a93db.dir/testFortranCompiler.f.o  -o cmTC_a93db 
+
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d29e3/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d29e3.dir/build.make CMakeFiles/cmTC_d29e3.dir/build
+Building Fortran object CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o
+/usr/local/bin/gfortran   -v -Wl,-v -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gfortran
+Target: x86_64-apple-darwin16
+Configured with: ../gcc-6.3.0/configure --prefix=/usr/local/gfortran --enable-languages=c,c++,fortran,objc,obj-c++ --build=x86_64-apple-darwin16 --with-gmp=/Users/fx/devel/gcc/deps-static/x86_64 --with-mpfr=/Users/fx/devel/gcc/deps-static/x86_64 --with-mpc=/Users/fx/devel/gcc/deps-static/x86_64 --with-isl=/Users/fx/devel/gcc/deps-static/x86_64
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o' '-mmacosx-version-min=10.14.7' '-asm_macosx_version_min=10.14' '-mtune=core2'
+ /usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/f951 /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//cca2fNJD.f90 -quiet -v -D__DYNAMIC__ /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -fPIC -quiet -dumpbase CMakeFortranCompilerABI.F -mmacosx-version-min=10.14.7 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/finclude -o /var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//cc4TKhwq.s
+GNU Fortran (GCC) version 6.3.0 (x86_64-apple-darwin16)
+	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5-p2, MPC version 1.0.3, isl version 0.15
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../../../x86_64-apple-darwin16/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/finclude
+ /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include
+ /usr/local/include
+ /usr/local/gfortran/include
+ /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU Fortran2008 (GCC) version 6.3.0 (x86_64-apple-darwin16)
+	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5-p2, MPC version 1.0.3, isl version 0.15
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o' '-mmacosx-version-min=10.14.7'  '-mtune=core2'
+ as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.14 -o CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o /var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//cc4TKhwq.s
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx10.14.0 -filetype obj -main-file-name cc4TKhwq.s -target-cpu penryn -fdebug-compilation-dir /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp -dwarf-debug-producer Apple LLVM version 10.0.1 (clang-1001.0.46.4) -dwarf-version=4 -mrelocation-model pic -o CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o /var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//cc4TKhwq.s
+COMPILER_PATH=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/
+LIBRARY_PATH=/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o' '-mmacosx-version-min=10.14.7'  '-mtune=core2'
+Linking Fortran executable cmTC_d29e3
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d29e3.dir/link.txt --verbose=1
+/usr/local/bin/gfortran  -L/usr/local/opt/openssl/lib -v -Wl,-v   CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o  -o cmTC_d29e3 
+Driving: /usr/local/bin/gfortran -L/usr/local/opt/openssl/lib -v -Wl,-v CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o -o cmTC_d29e3 -mmacosx-version-min=10.14.7 -asm_macosx_version_min=10.14 -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/lto-wrapper
+Target: x86_64-apple-darwin16
+Configured with: ../gcc-6.3.0/configure --prefix=/usr/local/gfortran --enable-languages=c,c++,fortran,objc,obj-c++ --build=x86_64-apple-darwin16 --with-gmp=/Users/fx/devel/gcc/deps-static/x86_64 --with-mpfr=/Users/fx/devel/gcc/deps-static/x86_64 --with-mpc=/Users/fx/devel/gcc/deps-static/x86_64 --with-isl=/Users/fx/devel/gcc/deps-static/x86_64
+Thread model: posix
+gcc version 6.3.0 (GCC) 
+Reading specs from /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../../libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-L/usr/local/opt/openssl/lib' '-v' '-o' 'cmTC_d29e3' '-mmacosx-version-min=10.14.7' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2'
+COMPILER_PATH=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/
+LIBRARY_PATH=/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../../
+COLLECT_GCC_OPTIONS='-L/usr/local/opt/openssl/lib' '-v' '-o' 'cmTC_d29e3' '-mmacosx-version-min=10.14.7' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2'
+ /usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.14.7 -weak_reference_mismatches non-weak -o cmTC_d29e3 -L/usr/local/opt/openssl/lib -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0 -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../.. -v CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 6.3.0
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.14.7 -weak_reference_mismatches non-weak -o cmTC_d29e3 -L/usr/local/opt/openssl/lib -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0 -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../.. -v CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:16:53 Apr  5 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:16:53 Apr  5 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/opt/openssl/lib
+	/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0
+	/usr/local/gfortran/lib
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/finclude]
+    add: [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include]
+    add: [/usr/local/include]
+    add: [/usr/local/gfortran/include]
+    add: [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/finclude] ==> [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/finclude]
+  collapse include dir [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include] ==> [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/local/gfortran/include] ==> [/usr/local/gfortran/include]
+  collapse include dir [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include-fixed] ==> [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/finclude;/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include;/usr/local/include;/usr/local/gfortran/include;/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include-fixed;/usr/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d29e3/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d29e3.dir/build.make CMakeFiles/cmTC_d29e3.dir/build]
+  ignore line: [Building Fortran object CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/local/bin/gfortran   -v -Wl -v -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gfortran]
+  ignore line: [Target: x86_64-apple-darwin16]
+  ignore line: [Configured with: ../gcc-6.3.0/configure --prefix=/usr/local/gfortran --enable-languages=c c++ fortran objc obj-c++ --build=x86_64-apple-darwin16 --with-gmp=/Users/fx/devel/gcc/deps-static/x86_64 --with-mpfr=/Users/fx/devel/gcc/deps-static/x86_64 --with-mpc=/Users/fx/devel/gcc/deps-static/x86_64 --with-isl=/Users/fx/devel/gcc/deps-static/x86_64]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o' '-mmacosx-version-min=10.14.7' '-asm_macosx_version_min=10.14' '-mtune=core2']
+  ignore line: [ /usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/f951 /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//cca2fNJD.f90 -quiet -v -D__DYNAMIC__ /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeFortranCompilerABI.F -fPIC -quiet -dumpbase CMakeFortranCompilerABI.F -mmacosx-version-min=10.14.7 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/finclude -o /var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//cc4TKhwq.s]
+  ignore line: [GNU Fortran (GCC) version 6.3.0 (x86_64-apple-darwin16)]
+  ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5-p2  MPC version 1.0.3  isl version 0.15]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../../../x86_64-apple-darwin16/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/finclude]
+  ignore line: [ /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/local/gfortran/include]
+  ignore line: [ /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU Fortran2008 (GCC) version 6.3.0 (x86_64-apple-darwin16)]
+  ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5-p2  MPC version 1.0.3  isl version 0.15]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o' '-mmacosx-version-min=10.14.7'  '-mtune=core2']
+  ignore line: [ as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.14 -o CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o /var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//cc4TKhwq.s]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx10.14.0 -filetype obj -main-file-name cc4TKhwq.s -target-cpu penryn -fdebug-compilation-dir /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp -dwarf-debug-producer Apple LLVM version 10.0.1 (clang-1001.0.46.4) -dwarf-version=4 -mrelocation-model pic -o CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o /var/folders/6g/z1skypg92zsdw3n7_qszjkl40000gn/T//cc4TKhwq.s]
+  ignore line: [COMPILER_PATH=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/]
+  ignore line: [LIBRARY_PATH=/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o' '-mmacosx-version-min=10.14.7'  '-mtune=core2']
+  ignore line: [Linking Fortran executable cmTC_d29e3]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d29e3.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/gfortran  -L/usr/local/opt/openssl/lib -v -Wl -v   CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o  -o cmTC_d29e3 ]
+  ignore line: [Driving: /usr/local/bin/gfortran -L/usr/local/opt/openssl/lib -v -Wl -v CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o -o cmTC_d29e3 -mmacosx-version-min=10.14.7 -asm_macosx_version_min=10.14 -l gfortran -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-apple-darwin16]
+  ignore line: [Configured with: ../gcc-6.3.0/configure --prefix=/usr/local/gfortran --enable-languages=c c++ fortran objc obj-c++ --build=x86_64-apple-darwin16 --with-gmp=/Users/fx/devel/gcc/deps-static/x86_64 --with-mpfr=/Users/fx/devel/gcc/deps-static/x86_64 --with-mpc=/Users/fx/devel/gcc/deps-static/x86_64 --with-isl=/Users/fx/devel/gcc/deps-static/x86_64]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (GCC) ]
+  ignore line: [Reading specs from /usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../../libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/usr/local/opt/openssl/lib' '-v' '-o' 'cmTC_d29e3' '-mmacosx-version-min=10.14.7' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2']
+  ignore line: [COMPILER_PATH=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/]
+  ignore line: [LIBRARY_PATH=/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/usr/local/opt/openssl/lib' '-v' '-o' 'cmTC_d29e3' '-mmacosx-version-min=10.14.7' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2']
+  link line: [ /usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.14.7 -weak_reference_mismatches non-weak -o cmTC_d29e3 -L/usr/local/opt/openssl/lib -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0 -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../.. -v CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v]
+    arg [/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin16/6.3.0/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.7] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d29e3] ==> ignore
+    arg [-L/usr/local/opt/openssl/lib] ==> dir [/usr/local/opt/openssl/lib]
+    arg [-L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0] ==> dir [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0]
+    arg [-L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../..] ==> dir [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../..]
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_d29e3.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-v] ==> ignore
+  Library search paths: [;/usr/local/opt/openssl/lib;/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0;/usr/local/gfortran/lib;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [System]
+  collapse library dir [/usr/local/opt/openssl/lib] ==> [/usr/local/opt/openssl/lib]
+  collapse library dir [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0] ==> [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0]
+  collapse library dir [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0/../../..] ==> [/usr/local/gfortran/lib]
+  collapse library dir [/usr/local/opt/openssl/lib] ==> [/usr/local/opt/openssl/lib]
+  collapse library dir [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0] ==> [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0]
+  collapse library dir [/usr/local/gfortran/lib] ==> [/usr/local/gfortran/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [gfortran;gcc_ext.10.5;gcc;quadmath;m;gcc_ext.10.5;gcc]
+  implicit dirs: [/usr/local/opt/openssl/lib;/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0;/usr/local/gfortran/lib;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6168/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f6168.dir/build.make CMakeFiles/cmTC_f6168.dir/build
+Building Fortran object CMakeFiles/cmTC_f6168.dir/testFortranCompilerF90.f90.o
+/usr/local/bin/gfortran    -c /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_f6168.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_f6168
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6168.dir/link.txt --verbose=1
+/usr/local/bin/gfortran  -L/usr/local/opt/openssl/lib    CMakeFiles/cmTC_f6168.dir/testFortranCompilerF90.f90.o  -o cmTC_f6168 
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56305/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_56305.dir/build.make CMakeFiles/cmTC_56305.dir/build
+Building C object CMakeFiles/cmTC_56305.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_56305.dir/CheckIncludeFile.c.o   -c /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_56305
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56305.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl/lib  CMakeFiles/cmTC_56305.dir/CheckIncludeFile.c.o  -o cmTC_56305 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bd7eb/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bd7eb.dir/build.make CMakeFiles/cmTC_bd7eb.dir/build
+Building C object CMakeFiles/cmTC_bd7eb.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_bd7eb.dir/src.c.o   -c /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bd7eb
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd7eb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openssl/lib  CMakeFiles/cmTC_bd7eb.dir/src.c.o  -o cmTC_bd7eb 
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the Fortran dgemm exists passed with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d55c/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3d55c.dir/build.make CMakeFiles/cmTC_3d55c.dir/build
+Building Fortran object CMakeFiles/cmTC_3d55c.dir/testFortranCompiler.f.o
+/usr/local/bin/gfortran   -cpp -pthread    -c /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_3d55c.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_3d55c
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d55c.dir/link.txt --verbose=1
+/usr/local/bin/gfortran  -L/usr/local/opt/openssl/lib  -cpp -pthread  CMakeFiles/cmTC_3d55c.dir/testFortranCompiler.f.o  -o cmTC_3d55c  -framework Accelerate 
+
+
+
+Determining if the Fortran cheev exists passed with the following output:
+Change Dir: /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e6a2/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2e6a2.dir/build.make CMakeFiles/cmTC_2e6a2.dir/build
+Building Fortran object CMakeFiles/cmTC_2e6a2.dir/testFortranCompiler.f.o
+/usr/local/bin/gfortran   -cpp -pthread    -c /Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_2e6a2.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_2e6a2
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e6a2.dir/link.txt --verbose=1
+/usr/local/bin/gfortran  -L/usr/local/opt/openssl/lib  -cpp -pthread  CMakeFiles/cmTC_2e6a2.dir/testFortranCompiler.f.o  -o cmTC_2e6a2  -framework Accelerate -lm -ldl 
+
+
+

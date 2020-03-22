@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kharches/software/SimVascPM3/svFSI-master/Build/CMakeFiles/svFSI"
+		},
+		{
+			"file" : "/Users/kharches/software/SimVascPM3/svFSI-master/Build/CMakeFiles/svFSI.rule"
+		},
+		{
+			"file" : "/Users/kharches/software/SimVascPM3/svFSI-master/Build/CMakeFiles/svFSI-complete.rule"
+		},
+		{
+			"file" : "/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-install.rule"
+		},
+		{
+			"file" : "/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-mkdir.rule"
+		},
+		{
+			"file" : "/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-download.rule"
+		},
+		{
+			"file" : "/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-update.rule"
+		},
+		{
+			"file" : "/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-patch.rule"
+		},
+		{
+			"file" : "/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-configure.rule"
+		},
+		{
+			"file" : "/Users/kharches/software/SimVascPM3/svFSI-master/Build/svFSI-prefix/src/svFSI-stamp/svFSI-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"svFSI"
+		],
+		"name" : "svFSI"
+	}
+}

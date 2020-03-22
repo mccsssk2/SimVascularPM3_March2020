@@ -1,0 +1,22 @@
+21 March 2020.
+Got this source for the GUI from:
+
+https://github.com/SimVascular/SimVascular.git
+
+This is the interactive segmentation tool. Reccommendation is
+to use the precompiled binary from the SimVascular website.
+
+Do:
+1. Install all the dependencies as root. Latest dependencies
+worked on Mojave MAC.
+2. Download from above https.
+3. Go into SimVascular-master and
+mkdir Build
+4. cd Build
+5. cmake-gui.
+6. Set source path as SimVascular-master
+7. Set Build as SimVascular-master/Build
+8. All being well, a shell script called sv is created in Build (as shown
+in this upload).
+9. Use the sv script to run the binary - the binary on its own cannot
+find all dependencies.

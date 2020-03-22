@@ -1,0 +1,45 @@
+# Set release mode
+export SV_RELEASED_MODE=@RELEASE_MODE@
+
+# Load custom plugins and paths if file present
+if [ -e ~/Library/Application\ Support/SimVascular/simvascular_custom_plugins.sh ]
+then
+  source ~/Library/Application\ Support/SimVascular/simvascular_custom_plugins.sh
+fi
+
+## Setup paths to non-core plugins.
+#
+# First check that there is a plugin install for this sv version.
+# If there is then for each plugin name sort the installed plugins 
+# by date and use the most recent.
+#
+if [ -e $SV_PLUGIN_INSTALL_DIR ]; then
+  for PLUGIN_NAME in `find  $SV_PLUGIN_INSTALL_DIR -mindepth 1 -maxdepth 1 -type d`; do
+    for FILE in `find  $PLUGIN_NAME -mindepth 1 -maxdepth 1 -type d | sort -t- -k5 -r`; do
+      if [ -e $FILE/setup.sh ]; then
+          echo "Add non-core plugin from ${FILE}"
+          source $FILE/setup.sh $FILE
+          break
+      fi
+    done
+  done
+else
+  echo "No plugins installed for current SimVascular installed version."
+fi
+
+## [DaveP 11/27/2018] This is a short-term fix for the
+#  curson problem that appears only on OSX.
+#
+# Create a bundle directory structure and create a soft link 
+# to the executable there.
+#
+app_dir=sv.app/Contents/MacOS
+sv_exe=$SV_HOME/$app_dir/@SV_EXE@ 
+
+if [ ! -d "$SV_HOME/sv.app" ]; then
+    mkdir -p $SV_HOME/$app_dir
+    ln -s $SV_HOME/bin/@SV_EXE@ $SV_HOME/$app_dir
+fi
+
+# Run the executable
+$sv_exe $*

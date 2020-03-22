@@ -1,0 +1,47 @@
+# Set release mode
+export SV_RELEASED_MODE=1
+
+# Load custom plugins and paths if file present
+if [ -e ~/Library/Application\ Support/SimVascular/simvascular_custom_plugins.sh ]
+then
+  source ~/Library/Application\ Support/SimVascular/simvascular_custom_plugins.sh
+fi
+
+## Setup paths to non-core plugins.
+#
+# First check that there is a plugin install for this sv version.
+# If there is then for each plugin name sort the installed plugins 
+# by date and use the most recent.
+#
+echo "Check for non-core plugins in $SV_PLUGIN_INSTALL_DIR"
+if [ -e $SV_PLUGIN_INSTALL_DIR ]; then
+  echo "Plugin install directory $SV_PLUGIN_INSTALL_DIR"
+  for PLUGIN_NAME in `find  $SV_PLUGIN_INSTALL_DIR -mindepth 1 -maxdepth 1 -type d`; do
+    for FILE in `find  $PLUGIN_NAME -mindepth 1 -maxdepth 1 -type d | sort -t- -k5 -r`; do
+      if [ -e $FILE/setup.sh ]; then
+          echo "Add non-core plugin from ${FILE}"
+          source $FILE/setup.sh $FILE
+          break
+      fi
+    done
+  done
+else
+  echo "No non-core plugins installed for current SimVascular installed version."
+fi
+
+
+## [DaveP 11/7/2018] 
+#
+# This is a short-term fix for the cursor offset problem. The long-term fix will be 
+# to redo the CPack installer build.
+#
+# The sv executable needs to be in the Contents/MacOS directory or else a library
+# needed for correct cursor location is not loaded correctly. The executable is  
+# not able to resolve library locations in placed in the Contents MacOS directory 
+# so we create a soft link to it.
+#
+svexe=$SV_HOME/../MacOS/simvascular.exe
+ln -s $SV_HOME/bin/simvascular $SV_HOME/../MacOS/simvascular.exe 
+
+# Run the executable
+${svexe} $*

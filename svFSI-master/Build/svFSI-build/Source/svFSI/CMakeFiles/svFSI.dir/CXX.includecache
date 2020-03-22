@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kharches/software/SimVascPM3/svFSI-master/Code/Source/svFSI/remeshTet.cpp
+tetgen.h
+/Users/kharches/software/SimVascPM3/svFSI-master/Code/Source/svFSI/tetgen.h
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+
+/Users/kharches/software/SimVascPM3/svFSI-master/Code/ThirdParty/tetgen/simvascular_tetgen/tetgen.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+time.h
+-
+stdint.h
+-
+
