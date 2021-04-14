@@ -1,0 +1,8 @@
+New releases of the self deployed PM3-SV components are handled by Dr. SR Kharche (Lawson Health Institute), 
+in consultation with Dr. Daniel Goldman and Dr. C. W. McIntyre. Before each release any tests for the component 
+or service are run to verify integration. New additions and features to the code base must pass all current tests 
+and approved by the lead developer. New additions by users will be fully tested and documented by the developer team. 
+After release, the developer team will provide support for the use of existing and new functionality. Each release will 
+be accompanied by commits and changelog updates on their respective git/GitHub repositories. The third-party software 
+and libraries are kept locked at specific versions. The PM3-SV components will receive updates when these libraries are 
+updated for specific improvements.
